@@ -435,11 +435,14 @@ class NotificationController extends Controller
      */
     public function store(Request $request)
     {
-        $to= User::where("id",2)->first();
+        // Send notification to other user 
+        // $to= User::where("id",2)->first();
+        // $to->notify(new HelloNotification("Hei, its work"));
 
-        $to->notify(new HelloNotification("Hei, its work"));
+        //Send notification to yourself
+        $request->user()->notify(new HelloNotification("Hei, its work"));
 
-        return response()->json('Notification sent.', 201);
+        return response()->json('Notification sent.', 201)
     }
 
     /**
