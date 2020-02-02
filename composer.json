@@ -7,14 +7,16 @@
     "require": {
         "php": ">=7.0.0",
         "fideloper/proxy": "^4.0",
-        "laravel-notification-channels/webpush": "dev-master#93cd1df5e43ff61a1a4d68229ec1908089114a7a",
-        "laravel/framework": "5.7.*",
+        "laravel/framework": "6.2.*",
         "laravel/tinker": "~1.0",
+
+        "laravel-notification-channels/webpush": "dev-master#93cd1df5e43ff61a1a4d68229ec1908089114a7a",
         "pusher/pusher-php-server": "^3.0"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
         "fzaninotto/faker": "~1.4",
+        "laravel/ui": "^1.1",
         "mockery/mockery": "~1.0",
         "phpunit/phpunit": "^7.0"
     },
