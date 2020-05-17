@@ -1,6 +1,6 @@
 # Laravel Web Push Notifications
 
-<a href="https://www.buymeacoffee.com/albirrkarim" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
+<a href="https://www.buymeacoffee.com/albirrkarim" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="height: 50x !important;width: 100px !important;" ></a>
 
 * pure javascript and jquery
 
